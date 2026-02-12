@@ -31,10 +31,10 @@ export default function Home() {
       <section className="h-screen w-full flex flex-col items-center justify-center relative z-10 pointer-events-none">
         <div className="text-center space-y-6 px-4 pointer-events-auto select-none">
           <h1 className="text-6xl md:text-8xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-br from-foreground to-foreground/40 pb-2">
-            ELEVATE
+            Portfólio
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-lg mx-auto">
-            Discover a universe of digital experiences tailored for the future.
+            Estes são meus projetos
           </p>
         </div>
         <div className="absolute bottom-10 animate-bounce pointer-events-auto">

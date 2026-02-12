@@ -12,9 +12,9 @@ export function ProjectsGrid({ onOpenModal }: ProjectsGridProps) {
     return (
         <section className="container py-20" id="projects">
             <div className="mb-12 space-y-2">
-                <h2 className="text-3xl font-bold tracking-tight md:text-4xl text-foreground">Selected Work</h2>
+                <h2 className="text-3xl font-bold tracking-tight md:text-4xl text-foreground">Melhores Projetos</h2>
                 <p className="text-muted-foreground text-lg max-w-2xl">
-                    A collection of projects showcasing my expertise in building scalable applications and immersive experiences.
+                    Aqui estão os melhores e mais úteis projetos que desenvolvi com o pouco tempo e conhecimento que tenho.
                 </p>
             </div>
 

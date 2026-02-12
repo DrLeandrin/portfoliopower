@@ -30,26 +30,27 @@ export interface Project {
 
 export const projects: Project[] = [
     {
-        id: 'ai-saas-platform',
-        name: 'Nebula AI',
-        tagline: 'Predictive Analytics for Enterprise',
+        id: 'ai-saas-health-platform',
+        name: 'AVELIS',
+        tagline: 'Plataforma de saúde para médicos',
         description: {
-            short: 'An AI-powered dashboard that predicts market trends with 94% accuracy.',
-            long: 'Nebula AI leverages advanced machine learning models to analyze subtle market shifts. Built for enterprise use, it handles terabytes of data in real-time features a dedicated vector search engine for semantic queries.',
+            short: 'Plataforma de saúde para médicos que permite ao médico fazer TUDO com o poder da IA.',
+            long: 'AVELIS é o projeto do coração! Uma plataforma desenvolvida em parceria com o gênio Jean Duarte. A ideia central é promover qualiade de vida aos médicos e segurança aos pacientes com o poder da IA.',
         },
-        tags: ['AI', 'SaaS', 'Enterprise'],
+        tags: ['Health', 'SaaS', 'Medical'],
         stack: ['Next.js', 'Python', 'TensorFlow', 'PostgreSQL'],
         links: {
-            demo: 'https://demo.nebula-ai.com',
-            repo: 'https://github.com/user/nebula-ai',
+            demo: 'https://avelis.com.br',
+            repo: 'https://github.com/avelis/avelis',
         },
         images: {
-            cover: '/images/nebula-cover.svg',
-            gallery: ['/images/nebula-1.svg', '/images/nebula-2.svg'],
+            cover: '/images/avelis-cover.svg',
+            gallery: ['/images/avelis-1.svg', '/images/avelis-2.svg'],
         },
         metrics: [
-            { label: 'Accuracy', value: '94%' },
-            { label: 'Data Points', value: '1.2B' },
+            { label: 'Users', value: '100k' },
+            { label: 'Doctors', value: '100k' },
+            { label: 'Patients', value: '100k' },
         ],
         featured: true,
         three: { color: '#8844ff' },
